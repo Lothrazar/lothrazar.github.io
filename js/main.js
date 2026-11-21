@@ -1,4 +1,4 @@
-// ── Projects data ──
+// Projects data
 // To add/remove/edit projects, modify this array only.
 const projects = [
   {
@@ -77,7 +77,7 @@ buildProjects();
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// ── Live stats ──
+// Live stats
 // The HTML holds a snapshot so the page still reads fine offline or when an API is rate limited.
 // The CurseForge project count (120) is a fixed number from the author portal: its API needs a secret key, which cannot live in a public page.
 function formatCount(n) {

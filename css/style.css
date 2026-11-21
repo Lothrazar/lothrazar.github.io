@@ -54,14 +54,14 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-/* ── Container ── */
+/* Container */
 .container {
   max-width: 860px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* ── Section label ── */
+/* Section label */
 .section-label {
   font-family: var(--font-display);
   font-size: 15px;
@@ -69,7 +69,7 @@ a:focus-visible {
   margin-bottom: 2rem;
 }
 
-/* ── Nav ── */
+/* Nav */
 nav {
   position: fixed;
   top: 0;
@@ -138,9 +138,9 @@ nav {
   }
 }
 
-/* ── Hero ── */
+/* Hero */
 #hero {
-  min-height: 100vh;
+  min-height: 38vh;
   display: flex;
   align-items: center;
   padding: 80px 0;
@@ -212,18 +212,18 @@ nav {
   background: var(--bg-hover);
 }
 
-/* ── Section shared ── */
+/* Section shared */
 section {
   padding: 80px 0;
 }
 
-/* ── About ── */
+/* About */
 /* The one memorable element: a pixel grass and dirt strip along the top of the section. */
-#about {
+/* #projects, #contact {
   position: relative;
 }
 
-#about::before {
+#projects::before, #contact::before {
   content: '';
   position: absolute;
   top: 0;
@@ -237,7 +237,7 @@ section {
     var(--grass);
   border-top: 2px solid var(--outline);
   border-bottom: 2px solid var(--outline);
-}
+} */
 
 .about-bio {
   color: var(--text-muted);
@@ -312,7 +312,7 @@ section {
   color: var(--accent);
 }
 
-/* ── Projects ── */
+/* Projects */
 #projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -395,7 +395,7 @@ section {
   color: var(--accent);
 }
 
-/* ── Contact ── */
+/* Contact */
 .contact-list {
   display: flex;
   flex-direction: column;
@@ -439,7 +439,7 @@ section {
   color: var(--accent);
 }
 
-/* ── Footer ── */
+/* Footer */
 footer {
   border-top: 2px solid var(--outline);
   padding: 2rem 0;
